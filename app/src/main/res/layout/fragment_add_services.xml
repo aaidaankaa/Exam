@@ -17,14 +17,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавьте услугу:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
     <EditText
         android:id="@+id/add_service_et"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="116dp"
         android:ems="15"
-        android:hint="Добавьте услугу"
+        android:hint="На ваш выбор"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/choose_category_spinner" />
 
@@ -36,7 +51,8 @@
         android:text="Добавить категорию"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_service_et" />
+        app:layout_constraintTop_toBottomOf="@+id/add_service_et"
+        android:backgroundTint="@color/button_tint_selector"/>
 
     <Button
         android:id="@+id/save_service_btn"
@@ -46,6 +62,7 @@
         android:text="Сохранить"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_category_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/add_category_btn"
+        android:backgroundTint="@color/button_tint_selector"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,4 +2,16 @@
     <string name="app_name">Exam</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="page_authorization">Страница авторизации:</string>
+    <string name="authorization"> авторизация:</string>
+    <string name="login_tv">Логин:</string>
+    <string name="login_et">Введите логин</string>
+    <string name="password_tv">Пароль:</string>
+    <string name="password_et">Введите пароль</string>
+    <string name="save">Войти</string>
+    <string name="maintain">Категория услуг</string>
+    <string name="choice">Выбор услуги</string>
+    <string name="payment">Оплата</string>
+    <string name="category">Категория услуг</string>
+    <string name="choosing">Выберите категорию:</string>
 </resources>
